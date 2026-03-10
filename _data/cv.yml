@@ -1,189 +1,177 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  name: Xuanmeng Sha
+  label: Ph.D. Student in Information Systems Engineering
+  email: shaxuanmeng@gmail.com
+  phone: "+81 080 2365 9834"
+  location: Osaka, Japan
+  website: https://shaxuanmeng.github.io
+  summary: >
+    Ph.D. researcher at Osaka University working at the intersection of 3D computer vision, generative modeling,
+    and robotic control. My recent work focuses on controllable 3D human animation, including speech-driven
+    facial motion synthesis and co-speech gesture generation with action-based diffusion policies.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
     - network: LinkedIn
-      username: example
+      username: xuanmengsha
+    - network: GitHub
+      username: shaxuanmeng
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+    city: Osaka
+    countryCode: JP
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: Osaka University
+        location: Osaka, Japan
+        url: https://www.osaka-u.ac.jp/en/
+        area: Information Systems Engineering
+        studyType: Ph.D.
+        start_date: 2024
+        end_date: Present
         highlights:
-          - Description 1.
-          - Description 2.
+          - Recipient of the BOOST Fellowship (Broadening Opportunities for Outstanding Young Researchers and Doctoral Students in Strategic Areas).
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: Osaka University
+        location: Osaka, Japan
+        url: https://www.osaka-u.ac.jp/en/
+        area: Information Systems Engineering
+        studyType: M.Sc.
+        start_date: 2022
+        end_date: 2024
         highlights:
-          - Description 1.
-          - Description 2.
+          - Awarded Excellent Master's Graduate, Graduate School of Information Science and Technology.
+
+      - institution: Northeastern University
+        location: Liaoning, China
+        url: https://english.neu.edu.cn/
+        area: Robotics Engineering
+        studyType: B.Eng.
+        start_date: 2016
+        end_date: 2020
+        highlights:
+          - Completed undergraduate training in robotics, control, and intelligent systems.
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Sysmex Corporation
+        position: Research and Development Intern
+        location: Kobe, Japan
+        start_date: 2025
+        end_date: 2025
+        summary: Multi-view 3D human body reconstruction.
         highlights:
-          - Relativity
-          - Description 2.
+          - Developed optimization pipelines for high-fidelity 3D human reconstruction from synchronized multi-view RGB streams.
+          - Improved reconstruction accuracy by 59.6% in internal evaluation.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Toshiba Corporation
+        position: Research and Development Intern
+        location: Japan
+        start_date: 2025
+        end_date: 2025
+        summary: Controllable and consistent image generation.
         highlights:
-          - Description 1.
-          - Description 2.
+          - Worked on flexible photo recrafting for consistency across apparel, background, and illumination.
+          - Explored controllable generation strategies for camera-view and pose variation.
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: Osaka University
+        position: Research Assistant
+        location: Osaka, Japan
+        start_date: 2022
+        end_date: 2024
+        summary: Medical image analysis and efficient model design.
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Accelerated training by 65% and reduced model complexity by 53% through pruning and optimization.
+          - Improved dental image classification performance via style-transfer-driven data augmentation.
+
+      - company: Daikin Industries, Ltd.
+        position: Student Researcher
+        location: Osaka, Japan
+        start_date: 2022
+        end_date: 2024
+        summary: Early-stage concept design for embodied intelligent systems.
+        highlights:
+          - Conducted feasibility studies and system architecture design for cross-domain industrial R&D concepts.
+          - Delivered internal technical presentations and prototype-oriented research reports.
 
     Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - title: BOOST Fellowship
+        date: 2024
+        awarder: Osaka University
+        summary: Broadening Opportunities for Outstanding Young Researchers and Doctoral Students in Strategic Areas.
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - title: Excellent Master's Graduate
+        date: 2024
+        awarder: Graduate School of Information Science and Technology, Osaka University
+        summary: Institutional distinction awarded at M.Sc. graduation.
+
+      - title: First Prize, China National University Student Innovation and Entrepreneurship Development Program
+        date: 2020
+        awarder: Ministry of Education, China
+        summary: National-level recognition for undergraduate research and innovation.
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+      - title: 3D Local Feature Learning and Analysis on Point Cloud Parts via Momentum Contrast
+        publisher: Sensors, 26(3):1007, 2026
+        releaseDate: 2026-02-01
+        url: https://www.mdpi.com/1424-8220/26/3/1007
+        summary: Self-supervised local feature learning on point clouds with momentum contrast.
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+      - title: 3DFacePolicy: Audio-Driven 3D Facial Animation Based on Action Control
+        publisher: IEEE ICRA 2026
+        releaseDate: 2026-01-31
+        url: https://arxiv.org/abs/2409.10848
+        summary: Accepted to ICRA 2026.
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+      - title: 3DGesPolicy: Phoneme-Aware Holistic Co-Speech Gesture Generation Based on Action Control
+        publisher: arXiv preprint
+        releaseDate: 2026-01-26
+        url: https://arxiv.org/abs/2601.18451
+        summary: Introduces action-control diffusion for full-body and facial co-speech animation.
+
+      - title: Evaluation on Momentum Contrastive Learning with 3D Local Parts
+        publisher: ISGC 2024
+        releaseDate: 2024-10-01
+        summary: International conference publication on local-part contrastive representation learning.
+
+      - title: Momentum Contrastive Learning for 3D Local Features
+        publisher: MIRU 2023
+        releaseDate: 2023-07-01
+        summary: Poster presentation.
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Research Areas
+        level: Advanced
+        keywords:
+          - 3D Computer Vision
+          - 3D Human Animation
+          - Generative Modeling
+          - Representation Learning
+          - Robotics-Inspired Control
+
+      - name: Programming and Tooling
+        level: Advanced
+        keywords:
+          - Python
+          - C++
+          - PyTorch
+          - Docker
+          - Linux
+          - Git
+          - Unity
+          - MATLAB
 
     Languages:
-      - name: German
-        summary: "Native speaker"
-
+      - name: Mandarin Chinese
+        summary: Native
       - name: English
-        summary: "Fluent"
+        summary: Professional proficiency (TOEIC 865)
+      - name: Japanese
+        summary: Conversational proficiency (JLPT N2)
 
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+    Academic Interests:
+      - name: Current Focus
+        keywords:
+          - Audio-driven 3D facial animation
+          - Co-speech gesture generation
+          - Multi-modal alignment for controllable generation
+          - Real-time interactive digital humans

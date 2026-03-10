@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+#subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
@@ -21,9 +21,7 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
 ---
 
 Hello! I am Xuanmeng Sha, currently a Ph.D. student in [Uranishi Lab](https://www.lab.ime.cmc.osaka-u.ac.jp/) in Information Systems Engineering at [The University of Osaka](https://www.osaka-u.ac.jp/en/), Japan, supported by the prestigious BOOST (Broadening Opportunities for Outstanding Young Researchers and Doctoral Students in Strategic Areas) fellowship. Previously, I received my M.Sc. degree from [The University of Osaka](https://www.osaka-u.ac.jp/en/) in 2024.3 (awarded the Excellent Master’s Graduate title), and my B.Eng. degree in Robotics Engineering from [Northeastern University](https://english.neu.edu.cn/), China, in 2020.6.

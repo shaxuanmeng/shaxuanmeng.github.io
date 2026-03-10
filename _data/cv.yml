@@ -116,13 +116,13 @@ cv:
         url: https://www.mdpi.com/1424-8220/26/3/1007
         summary: Self-supervised local feature learning on point clouds with momentum contrast.
 
-      - title: 3DFacePolicy: Audio-Driven 3D Facial Animation Based on Action Control
+      - title: "3DFacePolicy: Audio-Driven 3D Facial Animation Based on Action Control"
         publisher: IEEE ICRA 2026
         releaseDate: 2026-01-31
         url: https://arxiv.org/abs/2409.10848
         summary: Accepted to ICRA 2026.
 
-      - title: 3DGesPolicy: Phoneme-Aware Holistic Co-Speech Gesture Generation Based on Action Control
+      - title: "3DGesPolicy: Phoneme-Aware Holistic Co-Speech Gesture Generation Based on Action Control"
         publisher: arXiv preprint
         releaseDate: 2026-01-26
         url: https://arxiv.org/abs/2601.18451

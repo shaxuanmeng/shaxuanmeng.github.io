@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "Academic CV including education, research experience, publications, and technical expertise.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -391,16 +391,41 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-graduated-with-a-b-eng-in-robotics-engineering-from-northeastern-university",
+          title: 'Graduated with a B.Eng. in Robotics Engineering from Northeastern University.',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-joined-the-university-of-osaka-to-pursue-an-m-sc-in-information-systems-engineering",
+          title: 'Joined The University of Osaka to pursue an M.Sc. in Information Systems Engineering....',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-presented-a-poster-at-miru-2023-on-momentum-contrastive-learning-for-3d-local-features",
+          title: 'Presented a poster at MIRU 2023 on momentum contrastive learning for 3D local...',
+          description: "",
+          section: "News",},{id: "news-presented-a-work-at-isgc-2024-evaluation-on-momentum-contrastive-learning-with-3d-local-parts",
+          title: 'Presented a work at ISGC 2024: Evaluation on Momentum Contrastive Learning with 3D...',
+          description: "",
+          section: "News",},{id: "news-graduated-from-the-university-of-osaka-with-an-m-sc-in-information-systems-engineering-awarding-the-excellent-master-s-graduate-title",
+          title: 'Graduated from The University of Osaka with an M.Sc. in Information Systems Engineering,...',
+          description: "",
+          section: "News",},{id: "news-began-ph-d-studies-in-information-systems-engineering-at-the-university-of-osaka",
+          title: 'Began Ph.D. studies in Information Systems Engineering at The University of Osaka.',
+          description: "",
+          section: "News",},{id: "news-presented-a-poster-at-miru-2024-on-3d-local-feature-pretraining-via-momentum-contrast",
+          title: 'Presented a poster at MIRU 2024 on 3D local feature pretraining via momentum...',
+          description: "",
+          section: "News",},{id: "news-released-3dfacepolicy-on-arxiv-introducing-an-action-control-formulation-for-audio-driven-3d-facial-animation",
+          title: 'Released 3DFacePolicy on arXiv, introducing an action-control formulation for audio-driven 3D facial animation....',
+          description: "",
+          section: "News",},{id: "news-presented-a-poster-at-miru-2025-on-robotics-inspired-control-for-audio-driven-3d-facial-motion-synthesis",
+          title: 'Presented a poster at MIRU 2025 on robotics-inspired control for audio-driven 3D facial...',
+          description: "",
+          section: "News",},{id: "news-released-3dgespolicy-on-arxiv-proposing-a-phoneme-aware-action-control-framework-for-holistic-co-speech-gesture-generation",
+          title: 'Released 3DGesPolicy on arXiv, proposing a phoneme-aware action-control framework for holistic co-speech gesture...',
+          description: "",
+          section: "News",},{id: "news-3dfacepolicy-was-accepted-to-icra-2026",
+          title: '3DFacePolicy was accepted to ICRA 2026.',
+          description: "",
+          section: "News",},{id: "news-published-3d-local-feature-learning-and-analysis-on-point-cloud-parts-via-momentum-contrast-in-sensors",
+          title: 'Published 3D Local Feature Learning and Analysis on Point Cloud Parts via Momentum...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
@@ -462,28 +487,14 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/example_pdf.pdf", "_blank");
+          window.open("/assets/pdf/Resume.pdf", "_blank");
         },
       },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
-        },
-      },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
-        },
-      },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/feed.xml", "_blank");
+          window.open("mailto:%73%68%61%78%75%61%6E%6D%65%6E%67@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
         id: 'social-scholar',
@@ -497,7 +508,7 @@ ninja.data = [{
         title: 'Custom_social',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
+          window.open("www.linkedin.com/in/xuanmeng-sha-963b0a35a", "_blank");
         },
       },{
       id: 'light-theme',

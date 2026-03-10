@@ -3,11 +3,11 @@ cv:
   label: Ph.D. Student in Information Systems Engineering
   email: shaxuanmeng@gmail.com
   phone: "+81 080 2365 9834"
-  location: Osaka, Japan
+  location: "Osaka, Japan"
   website: https://shaxuanmeng.github.io
   summary: >
     Ph.D. researcher at Osaka University working at the intersection of 3D computer vision, generative modeling,
-    and robotic control. My recent work focuses on controllable 3D human animation, including speech-driven
+    and robotic control. My recent work focuses on 3D human animation, including speech-driven
     facial motion synthesis and co-speech gesture generation with action-based diffusion policies.
 
   social_networks:
@@ -65,7 +65,7 @@ cv:
 
       - company: Toshiba Corporation
         position: Research and Development Intern
-        location: Japan
+        location: Kanagawa, Japan
         start_date: 2025
         end_date: 2025
         summary: Controllable and consistent image generation.

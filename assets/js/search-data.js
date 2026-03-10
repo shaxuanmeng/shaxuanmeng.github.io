@@ -508,7 +508,7 @@ ninja.data = [{
         title: 'Custom_social',
         section: 'Socials',
         handler: () => {
-          window.open("www.linkedin.com/in/xuanmeng-sha-963b0a35a", "_blank");
+          window.open("https://www.linkedin.com/in/xuanmeng-sha-963b0a35a", "_blank");
         },
       },{
       id: 'light-theme',

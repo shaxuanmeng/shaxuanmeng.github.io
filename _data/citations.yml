@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-03-30'
+  last_updated: '2026-04-06'
 papers:
   ya_qj20AAAAJ:IjCSPb-OGe4C:
-    citations: 0
+    citations: 1
     title: Momentum Contrastive Learning on 3D Local Features
     year: '2025'
   ya_qj20AAAAJ:Tyk-4Ss8FVUC:
@@ -13,16 +13,20 @@ papers:
     citations: 1
     title: Evaluation on Momentum Contrastive Learning with 3D Local Parts
     year: '2024'
+  ya_qj20AAAAJ:W7OEmFMy1HYC:
+    citations: 1
+    title: 'AcoustEmo: Open-Vocabulary Emotion Reasoning via Utterance-Aware Acoustic Q-Former'
+    year: '2026'
   ya_qj20AAAAJ:Y0pCki6q_DkC:
     citations: 2
     title: '3DFacePolicy: Audio-Driven 3D Facial Animation Based on Action Control'
     year: '2024'
   ya_qj20AAAAJ:d1gkVwhDpl0C:
-    citations: 4
+    citations: 5
     title: A Unified Evaluation Framework for Multi-Annotator Tendency Learning
     year: '2025'
   ya_qj20AAAAJ:u-x6o8ySG0sC:
-    citations: 4
+    citations: 5
     title: '3DFacePolicy: Speech-Driven 3D Facial Animation with Diffusion Policy'
     year: '2024'
   ya_qj20AAAAJ:u5HHmVD_uO8C:
@@ -30,6 +34,6 @@ papers:
     title: Development of mixed reality robot control system based on hololens
     year: '2019'
   ya_qj20AAAAJ:zYLM7Y9cAGgC:
-    citations: 1
+    citations: 2
     title: '3DGesPolicy: Phoneme-Aware Holistic Co-Speech Gesture Generation Based on Action Control'
     year: '2026'

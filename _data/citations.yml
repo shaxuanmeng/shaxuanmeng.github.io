@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-06'
+  last_updated: '2026-04-17'
 papers:
   ya_qj20AAAAJ:IjCSPb-OGe4C:
     citations: 1
@@ -30,7 +30,7 @@ papers:
     title: '3DFacePolicy: Speech-Driven 3D Facial Animation with Diffusion Policy'
     year: '2024'
   ya_qj20AAAAJ:u5HHmVD_uO8C:
-    citations: 7
+    citations: 8
     title: Development of mixed reality robot control system based on hololens
     year: '2019'
   ya_qj20AAAAJ:zYLM7Y9cAGgC:

@@ -1,6 +1,6 @@
 cv:
   name: Xuanmeng Sha
-  label: Ph.D. Student in Information Systems Engineering
+  label: Ph.D. Researcher in Information Systems Engineering
   email: shaxuanmeng@gmail.com
   phone: "+81 080 2365 9834"
   location: "Osaka, Japan"
@@ -30,7 +30,7 @@ cv:
         start_date: 2024
         end_date: Present
         highlights:
-          - Recipient of the BOOST Fellowship (Broadening Opportunities for Outstanding Young Researchers and Doctoral Students in Strategic Areas).
+          - Fellowship recipient of BOOST (Broadening Opportunities for Outstanding Young Researchers and Doctoral Students in Strategic Areas).
 
       - institution: Osaka University
         location: Osaka, Japan
@@ -40,7 +40,8 @@ cv:
         start_date: 2022
         end_date: 2024
         highlights:
-          - Awarded Excellent Master's Graduate, Graduate School of Information Science and Technology.
+          - Ranked 80th in QS World University Rankings and 3rd in Japan.
+          - Awarded Excellent Master's Graduate by the Graduate School of Information Science and Technology.
 
       - institution: Northeastern University
         location: Liaoning, China
@@ -51,6 +52,9 @@ cv:
         end_date: 2020
         highlights:
           - Completed undergraduate training in robotics, control, and intelligent systems.
+          - GPA: 3.3/4.0.
+          - A top-tier 985 Project university with a robotics program ranked in China's national top 8.
+          - Awarded First Prize in the China National University Student Innovation and Entrepreneurship Development Program.
 
     Experience:
       - company: Sysmex Corporation
@@ -58,7 +62,7 @@ cv:
         location: Kobe, Japan
         start_date: 2025
         end_date: 2025
-        summary: Multi-view 3D human body reconstruction.
+        summary: Multi-view 3D human body reconstruction
         highlights:
           - Developed optimization pipelines for high-fidelity 3D human reconstruction from synchronized multi-view RGB streams.
           - Improved reconstruction accuracy by 59.6% in internal evaluation.
@@ -68,7 +72,7 @@ cv:
         location: Kanagawa, Japan
         start_date: 2025
         end_date: 2025
-        summary: Controllable and consistent image generation.
+        summary: Flexible photo recrafting and controllable image generation
         highlights:
           - Worked on flexible photo recrafting for consistency across apparel, background, and illumination.
           - Explored controllable generation strategies for camera-view and pose variation.
@@ -78,7 +82,7 @@ cv:
         location: Osaka, Japan
         start_date: 2022
         end_date: 2024
-        summary: Medical image analysis and efficient model design.
+        summary: Dental image analysis and model efficiency optimization
         highlights:
           - Accelerated training by 65% and reduced model complexity by 53% through pruning and optimization.
           - Improved dental image classification performance via style-transfer-driven data augmentation.
@@ -88,7 +92,7 @@ cv:
         location: Osaka, Japan
         start_date: 2022
         end_date: 2024
-        summary: Early-stage concept design for embodied intelligent systems.
+        summary: Industrial concept planning and feasibility studies
         highlights:
           - Conducted feasibility studies and system architecture design for cross-domain industrial R&D concepts.
           - Delivered internal technical presentations and prototype-oriented research reports.
@@ -110,13 +114,19 @@ cv:
         summary: National-level recognition for undergraduate research and innovation.
 
     Publications:
+      - title: AcoustEmo: An Utterance-Aware Acoustic Q-Former for Open-Vocabulary Emotion Reasoning
+        publisher: Interspeech 2026
+        releaseDate: 2026-06-03
+        url: https://arxiv.org/abs/2603.20894
+        summary: Liyun Zhang, Xuanmeng Sha, Shuqiong Wu, Fengkai Liu.
+
       - title: 3D Local Feature Learning and Analysis on Point Cloud Parts via Momentum Contrast
         publisher: Sensors, 26(3):1007, 2026
         releaseDate: 2026-02-01
         url: https://www.mdpi.com/1424-8220/26/3/1007
         summary: Self-supervised local feature learning on point clouds with momentum contrast.
 
-      - title: "3DFacePolicy: Audio-Driven 3D Facial Animation Based on Action Control"
+      - title: 3DFacePolicy: Speech-Driven 3D Facial Animation Based on Diffusion Policy
         publisher: IEEE ICRA 2026
         releaseDate: 2026-01-31
         url: https://arxiv.org/abs/2409.10848

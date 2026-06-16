@@ -114,7 +114,7 @@ cv:
         summary: National-level recognition for undergraduate research and innovation.
 
     Publications:
-      - title: AcoustEmo: An Utterance-Aware Acoustic Q-Former for Open-Vocabulary Emotion Reasoning
+      - title: "AcoustEmo: An Utterance-Aware Acoustic Q-Former for Open-Vocabulary Emotion Reasoning"
         publisher: Interspeech 2026
         releaseDate: 2026-06-03
         url: https://arxiv.org/abs/2603.20894
@@ -126,7 +126,7 @@ cv:
         url: https://www.mdpi.com/1424-8220/26/3/1007
         summary: Self-supervised local feature learning on point clouds with momentum contrast.
 
-      - title: 3DFacePolicy: Speech-Driven 3D Facial Animation Based on Diffusion Policy
+      - title: "3DFacePolicy: Speech-Driven 3D Facial Animation Based on Diffusion Policy"
         publisher: IEEE ICRA 2026
         releaseDate: 2026-01-31
         url: https://arxiv.org/abs/2409.10848

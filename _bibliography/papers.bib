@@ -11,8 +11,21 @@
       url={https://arxiv.org/abs/2601.18451},
       html={https://arxiv.org/abs/2601.18451},
       pdf={https://arxiv.org/pdf/2601.18451},
-      preview={gesture.gif},
+      preview={gesture_compressed_tmp.gif},
+      abstract="Generating holistic co-speech gestures that integrate full-body motion with facial expressions suffers from semantically incoherent coordination on body motion and spatially unstable meaningless movements due to existing part-decomposed or frame-level regression methods, We introduce 3DGesPolicy, a novel action-based framework that reformulates holistic gesture generation as a continuous trajectory control problem through diffusion policy from robotics. By modeling frame-to-frame variations as unified holistic actions, our method effectively learns inter-frame holistic gesture motion patterns and ensures both spatially and semantically coherent movement trajectories that adhere to realistic motion manifolds. To further bridge the gap in expressive alignment, we propose a Gesture-Audio-Phoneme (GAP) fusion module that can deeply integrate and refine multi-modal signals, ensuring structured and fine-grained alignment between speech semantics, body motion, and facial expressions. Extensive quantitative and qualitative experiments on the BEAT2 dataset demonstrate the effectiveness of our 3DGesPolicy across other state-of-the-art methods in generating natural, expressive, and highly speech-aligned holistic gestures.",
       selected={true},
+}
+
+@misc{zhang2026acoustemoutteranceawareacousticqformer,
+      title={AcoustEmo: An Utterance-Aware Acoustic Q-Former for Open-Vocabulary Emotion Reasoning},
+      author={Liyun Zhang and Xuanmeng Sha and Shuqiong Wu and Fengkai Liu},
+      year={2026},
+      eprint={2603.20894},
+      archivePrefix={arXiv},
+      url={https://arxiv.org/abs/2603.20894},
+      html={https://arxiv.org/abs/2603.20894},
+      pdf={https://arxiv.org/pdf/2603.20894},
+      note={Accepted by Interspeech 2026},
 }
 
 @Article{s26031007,
@@ -27,6 +40,7 @@ URL = {https://www.mdpi.com/1424-8220/26/3/1007},
 PubMedID = {41682522},
 ISSN = {1424-8220},
 ABSTRACT = {Self-supervised contrastive learning has demonstrated remarkable effectiveness in learning visual representations without labeled data, yet its application to 3D local feature learning from point clouds remains underexplored. Existing methods predominantly focus on complete object shapes, neglecting the critical challenge of recognizing partial observations commonly encountered in real-world 3D perception. We propose a momentum contrastive learning framework specifically designed to learn discriminative local features from randomly sampled point cloud regions. By adapting the MoCo architecture with PointNet++ as the feature backbone, our method treats local parts of point cloud as fundamental contrastive learning units, combined with carefully designed augmentation strategies including random dropout and translation. Experiments on ShapeNet demonstrate that our approach effectively learns transferable local features and the empirical observation that approximately 30% object local part represents a practical threshold for effective learning when simulating real-world occlusion scenarios, and achieves comparable downstream classification accuracy while reducing training time by 16%.},
+preview={feature1.png},
 DOI = {10.3390/s26031007}
 }
 
@@ -42,6 +56,7 @@ DOI = {10.3390/s26031007}
       pdf={https://arxiv.org/pdf/2409.10848},
       preview={face.gif},
       note={Accepted by ICRA},
+      abstract="Audio-driven 3D facial animation has achieved significant progress in both research and applications. While recent baselines struggle to generate natural and continuous facial movements due to their frame-by-frame vertex generation approach, we propose 3DFacePolicy, a pioneer work that introduces a novel definition of vertex trajectory changes across consecutive frames through the concept of "action". By predicting action sequences for each vertex that encode frame-to-frame movements, we reformulate vertex generation approach into an action-based control paradigm. Specifically, we leverage a robotic control mechanism, diffusion policy, to predict action sequences conditioned on both audio and vertex states. Extensive experiments on VOCASET and BIWI datasets demonstrate that our approach significantly outperforms state-of-the-art methods and is particularly expert in dynamic, expressive and naturally smooth facial animations.",
       selected={true},
 }
 
@@ -52,7 +67,9 @@ DOI = {10.3390/s26031007}
   journal = "PoS",
   year = 2024,
   volume = "ISGC2024",
-  pages = "004"
+  pages = "004",
+  preview={feature2.png},
+  abstract ="Self-supervised learning speeds up the representation learning process in lots of computer vision tasks. It also saves time and labor of labelling the dataset. Momentum Contrast (MoCo) is one of efficient contrastive learning methods, which has achieved positive results on different downstream vision tasks with self-supervised learning. However, its performance on extracting 3D local parts representations remains unknown. In our study, we make modifications on the MoCo model to learn the local features of ShapeNet, and design data augmentation methods and local clustering method to randomly generate local clusters. To evaluate proposed method, the evaluation experiments on different scales of local clusters and data augmentation methods with our method are performed, then we perform the 3D object classification downstream task on the local parts with pretrained model. From the results, the modified MoCo model shows great performance on extracting local representations and make the classification downstream task faster with pretrained model."
 }
 
 @InProceedings{10.1007/978-3-030-27526-6_50,

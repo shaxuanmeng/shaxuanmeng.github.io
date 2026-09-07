@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-14'
+  last_updated: '2026-09-07'
 papers:
   ya_qj20AAAAJ:IjCSPb-OGe4C:
     citations: 1
@@ -34,6 +34,6 @@ papers:
     title: Development of mixed reality robot control system based on hololens
     year: '2019'
   ya_qj20AAAAJ:zYLM7Y9cAGgC:
-    citations: 3
+    citations: 5
     title: '3dgespolicy: Phoneme-aware holistic co-speech gesture generation based on action control'
     year: '2026'
